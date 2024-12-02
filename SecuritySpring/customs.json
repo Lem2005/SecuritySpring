@@ -1,0 +1,18 @@
+{
+    "elements": {},
+    "attributes": {
+        "th:if\"${param.error}\"": {
+            "context": "div"
+        },
+        "sec:authentication": {},
+        "th:if\"${param.logout}\"": {
+            "context": "div"
+        },
+        "th:action": {
+            "context": "form"
+        },
+        "th:href": {
+            "context": "a"
+        }
+    }
+}
